@@ -1,0 +1,16 @@
+body {
+}
+header , footer {
+    background-color: rgb(89, 89, 89);
+    height: 38px;  
+} 
+
+main {
+    height: 80vh;                   
+}
+
+a {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+ }
