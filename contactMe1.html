@@ -8,10 +8,11 @@
 </head>
 
 <body>
-  <header style="background-color: grey; padding: 10px; scroll-margin-block: 20px;">
-            <a href="./index1.html" style="margin: 20px;">Home Page</a>
-            <a href="./contactMe1.html" style="margin: 20px;">Contact</a>
-        </header>
+  <header>
+    <a href="./index1.html" style="margin: 20px;">Home Page</a>
+    <a href="./contactMe1.html" style="margin: 20px;">Contact</a>
+    <link rel="stylesheet" href="unitStyle.css">
+  </header>
   <main>
     <h1>Email us</h1>
     <form action="./index1.html" method="get">
@@ -24,27 +25,26 @@
         <input type="text" name="lastname" id="lastname"><br>
       </fieldset>
      
-
-      <div id="Information About You">
+      <div id="Information">
         <h2>Information About You</h2>
-        <label for="">Subscribe to my newsletter</label>
+        <label >Subscribe to my newsletter</label>
         <input type="checkbox" name="date1" id="date1" value="100">
-        <label for="">Subscribe to my updates</label>
+        <label >Subscribe to my updates</label>
         <input type="checkbox" name="date2" id="date2" value="200">
-        <label for="">No subscriptions</label>
+        <label >No subscriptions</label>
         <input type="checkbox" name="date3" id="date3" value="300">
       </div>
 
       <br><br>
 
       <div>
-        <label for="Female">Female</label>
+        <label>Female</label>
         <input type="radio" name="Gender" id="Female" value="Female">
 
-        <label for="Male">Male</label>
+        <label>Male</label>
         <input type="radio" name="Gender" id="Male" value="Male">
 
-        <label for="Other">Other</label>
+        <label>Other</label>
         <input type="radio" name="Gender" id="Other" value="Other">
       </div>
       
